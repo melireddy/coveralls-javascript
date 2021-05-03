@@ -4,3 +4,4 @@ script:
   - npm install coveralls nyc --save-dev
   - npm install mocha-lcov-reporter --save-dev
 
+after_success: npm run coverage
